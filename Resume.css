@@ -1,0 +1,206 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:'poppins', sans-serif;
+  }
+  
+  body
+  {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container
+  {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1150px;
+    margin: 50px;
+    background:white;
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0, 1);
+  }
+
+  .container .left_side
+  {
+    position: relative;
+    background-color: #f0f1f2;
+    padding: 40px;
+  }
+
+  .profileText .imgBx
+  {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* border-color: blue; */
+    overflow: hidden;
+    border: 7px solid   #7fa4b5;
+  }
+
+  .profileText .imgBx img
+  {
+    position:absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 130%;
+    /* margin: 10px; */
+    object-fit: cover;
+   }
+   
+  .profile_Title
+  {
+    margin-top: 35px;
+  }
+
+  .contact_Info
+  {
+    padding-top: 40px;
+  }
+
+  .title
+  {
+    color: #7fa4b5;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+  }
+
+  .hobbies_Info
+  {
+    padding-top: 40px;
+    margin-top: 1px;
+  }
+
+  .hobdetails
+  {
+    margin-top: 15px;
+  }
+
+  .container .right_side
+  {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+  }
+
+ .profileName 
+ {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 1px solid rgb(96, 96, 160); */
+    margin-top: 170px;
+    /* font-family: */
+ }
+
+ .profileName h2
+ {
+    color: rgb(35, 24, 24);
+    font-size: 1.5em;
+    text-transform: uppercase;
+    text-align: start;
+    font-weight: 550;
+    line-height: 1.2em;
+ }
+
+ .domSize
+ {
+    font-size: 1.2em;
+    font-weight: 50;
+    margin-left: 45px;   
+ }
+
+ .educationInfo .eduTitle
+ {
+    border-bottom:  3px solid #7fa4b5 ;
+    margin-top: 20px;
+    text-transform: uppercase;
+ }
+
+ .educationInfo  .MBA
+ {
+    margin-top: 25px;
+    text-align: start;
+ }
+
+ .eduInfo
+ {
+    margin-bottom: 20px;
+ }
+
+ .eduInfo h4
+ {
+  font-weight: 550;
+  font-size: 0.9em;
+ }
+
+ .eduInfo h5
+ {
+  font-weight: 300;
+  font-size: 0.7em;
+ }
+
+.projectInfo .proTitle
+{
+   border-bottom:  3px solid #7fa4b5;
+   margin-top: 25px;
+   text-align: start;
+   margin-bottom: 20px;
+}
+
+.datedomain1
+{
+  font-weight: 100;
+font-size: 1.0em;
+}
+
+.datedomain2
+{
+  margin-bottom: 20px;
+  font-weight: 100;
+font-size: 1.0em;
+}
+
+.techInfo .techTitle
+{
+ margin-top: 25px;
+ border-bottom: 3px solid #7fa4b5 ;
+}
+.techInfo .techLang
+{
+    margin-top: 20px;
+}
+
+.conInfo
+{
+margin-top: 20px;
+}
+
+.fontsize
+{
+font-weight: 100;
+font-size: 1.0em;
+}
+
+@media (max-width:1000px)
+{
+  .container
+  {
+    margin: 10px;
+    grid-template-columns: repeat(1,1fr);
+  }
+}
+ 
